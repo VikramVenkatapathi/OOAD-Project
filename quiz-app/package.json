@@ -19,13 +19,13 @@
     "react-dom": "^17.0.2",
     "react-html-table-to-excel": "^2.0.0",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "^4.0.3",
+    "react-scripts": "^3.0.1",
     "react-toast-notifications": "^2.4.4",
     "web-vitals": "^1.1.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
